@@ -43,6 +43,6 @@ with open("ip2asn-combined.tsv", newline="") as csvfile:
 
 
 print("Writing database")
-with open("Geoacumen-Country.mmdb", "wb") as f:
+with open("ip2asn-combined.mmdb", "wb") as f:
     enc.write(f)
 os.remove("ip2asn-combined.tsv")
